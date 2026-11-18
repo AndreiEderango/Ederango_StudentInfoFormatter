@@ -1,2 +1,11 @@
-# Ederango_StudentInfoFormatter
-Activity one
+
+first_name = str(input("Enter first name: "))
+last_name = str(input("Enter last name: "))
+section = str(input("Enter your section: "))
+favorite_subject = str(input("Enter yoiur favorite subject: "))
+full_name = first_name.title() + " " + last_name.title()
+print("Formatted output:")
+print("Name: ", first_name)
+print("Name Code: ", last_name)
+print("Section: ", section)
+print("Favorite subject: ", favorite_subject)
